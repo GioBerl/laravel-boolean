@@ -1,0 +1,39 @@
+main {
+    padding-top: 100px;
+
+    .jumbo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .jumbo-left {
+            width: 50%;
+            font-size: 35px;
+            text-transform: uppercase;
+            color: $write-color;
+
+            h1 {
+                font-weight: 300;
+            }
+
+            p {
+                font-size: $p-size;
+                font-weight: bold;
+            }
+
+            ul {
+                font-size: 15px;
+                padding-left: 20px;
+                line-height: 24px;
+            }
+        }
+
+        .jumbo-right {
+            width: 50%;
+
+            img {
+                max-width: 90%;
+            }
+        }
+    }
+}

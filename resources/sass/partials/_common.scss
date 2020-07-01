@@ -3,6 +3,15 @@ body {
 }
 
 .container {
-    width: 90%;
+    width: 85%;
     margin: auto;
+}
+
+section {
+    padding: 80px 0;
+}
+
+.active {
+    font-weight: bold;
+    border-bottom: 1px solid green;
 }
