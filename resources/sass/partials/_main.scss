@@ -99,4 +99,25 @@ main {
             }
         }
     }
+
+    .privacy {
+        color: $write-color;
+
+        h3 {
+            font-size: $p-size + 5px;
+            margin-bottom: 40px;
+        }
+
+        p,
+        li {
+            font-size: $p-size;
+            margin-bottom: 40px;
+        }
+
+        ul {
+            li {
+                margin-bottom: 10px;
+            }
+        }
+    }
 }

@@ -567,6 +567,25 @@ main .companies .bottom-row-images .third {
   text-align: right;
 }
 
+main .privacy {
+  color: #1b3c59;
+}
+
+main .privacy h3 {
+  font-size: 25px;
+  margin-bottom: 40px;
+}
+
+main .privacy p,
+main .privacy li {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+main .privacy ul li {
+  margin-bottom: 10px;
+}
+
 footer {
   height: 370px;
   background-color: #1b3c59;
