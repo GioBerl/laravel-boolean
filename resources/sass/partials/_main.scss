@@ -36,4 +36,67 @@ main {
             }
         }
     }
+
+    .statistics {
+        background-color: $bg-blue;
+        color: white;
+
+        .statistics-wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+
+            .statistics-left,
+            .statistics-center,
+            .statistics-right {
+                max-width: 280px;
+            }
+        }
+
+        h3 {
+            font-size: 40px;
+        }
+
+        p {
+            font-size: $p-size;
+        }
+    }
+
+    .companies {
+        padding: 0;
+        color: $grey-color;
+
+        p {
+            font-size: $p-size;
+        }
+
+        .top-row-images,
+        .bottom-row-images {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .first,
+            .second,
+            .third {
+                text-align: left;
+                width: 33%;
+
+                img {
+                    max-width: 250px;
+                }
+            }
+        }
+
+        .bottom-row-images {
+            margin-top: 20px;
+
+            .first,
+            .second,
+            .third {
+                text-align: right;
+            }
+        }
+    }
 }

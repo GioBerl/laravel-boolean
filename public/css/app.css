@@ -384,7 +384,7 @@ body {
 }
 
 .container {
-  width: 85%;
+  max-width: 1140px;
   margin: auto;
 }
 
@@ -395,6 +395,11 @@ section {
 .active {
   font-weight: bold;
   border-bottom: 1px solid green;
+}
+
+i {
+  color: white;
+  cursor: pointer;
 }
 
 header {
@@ -423,6 +428,7 @@ header .header-right ul.menu {
 
 header .header-right ul.menu li {
   padding: 20px;
+  margin: 10px;
 }
 
 header .header-right ul.menu li:last-child {
@@ -490,10 +496,80 @@ main .jumbo .jumbo-right img {
   max-width: 90%;
 }
 
+main .statistics {
+  background-color: #1b3c59;
+  color: white;
+}
+
+main .statistics .statistics-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+main .statistics .statistics-wrapper .statistics-left,
+main .statistics .statistics-wrapper .statistics-center,
+main .statistics .statistics-wrapper .statistics-right {
+  max-width: 280px;
+}
+
+main .statistics h3 {
+  font-size: 40px;
+}
+
+main .statistics p {
+  font-size: 20px;
+}
+
+main .companies {
+  padding: 0;
+  color: #8e8e8e;
+}
+
+main .companies p {
+  font-size: 20px;
+}
+
+main .companies .top-row-images,
+main .companies .bottom-row-images {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main .companies .top-row-images .first,
+main .companies .top-row-images .second,
+main .companies .top-row-images .third,
+main .companies .bottom-row-images .first,
+main .companies .bottom-row-images .second,
+main .companies .bottom-row-images .third {
+  text-align: left;
+  width: 33%;
+}
+
+main .companies .top-row-images .first img,
+main .companies .top-row-images .second img,
+main .companies .top-row-images .third img,
+main .companies .bottom-row-images .first img,
+main .companies .bottom-row-images .second img,
+main .companies .bottom-row-images .third img {
+  max-width: 250px;
+}
+
+main .companies .bottom-row-images {
+  margin-top: 20px;
+}
+
+main .companies .bottom-row-images .first,
+main .companies .bottom-row-images .second,
+main .companies .bottom-row-images .third {
+  text-align: right;
+}
+
 footer {
   height: 370px;
   background-color: #1b3c59;
-  padding-bottom: 30px;
   padding-left: 0px;
   padding-right: 0px;
   padding-top: 70px;
@@ -530,5 +606,17 @@ footer .footer-top-right ul li a {
 
 footer .footer-top-right ul li a:hover {
   text-decoration: underline;
+}
+
+footer .footer-bottom {
+  text-align: center;
+}
+
+footer .footer-bottom .icons i {
+  margin: 20px;
+}
+
+footer .footer-bottom .icons i:hover {
+  color: #61ce4e;
 }
 

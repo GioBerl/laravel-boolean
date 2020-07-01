@@ -13,11 +13,21 @@
                 <ul>
                     <li><a href="#">Lezione Gratuita</a></li>
                     <li><a href="#">Domande Frequenti</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="{{ route('privacy') }}">Privacy Policy</a></li>
                     <li><a href="#">Lavora con noi</a></li>
                 </ul>
             </div>
         </div>
-        <div class="footer-bottom">footer bottom</div>
+        <div class="footer-bottom">
+            <div class="icons">
+                <i class="fab fa-instagram fa-3x"></i>
+                <i class="fab fa-facebook-f fa-3x"></i>
+                <i class="fab fa-linkedin-in fa-3x"></i>
+                <i class="fab fa-youtube fa-3x"></i>
+            </div>
+            <p>
+                Boolean SRL - Piazzale Giovanni dalle Bande Nere, 9 - 20146, Milano - P.IVA: 10214930967
+            </p>
+        </div>
     </div>
 </footer>

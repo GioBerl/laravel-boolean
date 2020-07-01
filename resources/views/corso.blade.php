@@ -3,5 +3,12 @@
 @section('page-title', 'Corso')
 
 @section('content')
-<h1>Corso</h1>
+<main>
+    <div class="container">
+        <section>
+            <h1>Pagina Corso</h1>
+        </section>
+    </div>
+</main>
+
 @endsection

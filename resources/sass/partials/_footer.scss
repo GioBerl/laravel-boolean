@@ -1,7 +1,7 @@
 footer {
     height: 370px;
-    background-color: #1b3c59;
-    padding-bottom: 30px;
+    background-color: $bg-blue;
+    // padding-bottom: 30px;
     padding-left: 0px;
     padding-right: 0px;
     padding-top: 70px;
@@ -36,6 +36,20 @@ footer {
                             text-decoration: underline;
                         }
                     }
+                }
+            }
+        }
+    }
+
+    .footer-bottom {
+        text-align: center;
+
+        .icons {
+            i {
+                margin: 20px;
+
+                &:hover {
+                    color: #61ce4e;
                 }
             }
         }
