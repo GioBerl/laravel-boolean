@@ -24,3 +24,14 @@ Route::get('/corso', function () {
 Route::get('/privacy-policy', function () {
     return view('privacy');
 })->name('privacy');
+
+Route::get('/domande', function () {
+    return view('faqs');
+})->name('faqs');
+
+// PAGINA DI PROVA PER TESTARE PHP PLEIN
+Route::get('/prova', function () {
+    // nel file config ho aggiunto un file prova.php
+    $prove = config('prova.lista_prove');
+    return view('prova')->with();
+})->name('prova');

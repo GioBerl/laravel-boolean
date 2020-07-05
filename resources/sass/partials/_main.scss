@@ -120,4 +120,47 @@ main {
             }
         }
     }
+
+    .faqs-title {
+        padding: 80px;
+        color: $write-color;
+
+        p {
+            font-size: $p-size;
+        }
+    }
+
+    .faqs-wrapper {
+        display: flex;
+        align-items: baseline;
+        color: $write-color;
+        background-color: $bg-blue;
+
+        .faqs-left {
+            width: 50%;
+            padding: 20px 80px;
+            background-color: $light-grey;
+
+            i {
+                color: $write-color;
+            }
+        }
+
+        .faqs-right {
+            width: 50%;
+            padding: 20px 80px;
+            color: white;
+            background-color: $bg-blue;
+        }
+
+        .questions {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+        }
+
+        .answers {
+            display: none;
+        }
+    }
 }

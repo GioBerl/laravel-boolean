@@ -586,6 +586,49 @@ main .privacy ul li {
   margin-bottom: 10px;
 }
 
+main .faqs-title {
+  padding: 80px;
+  color: #1b3c59;
+}
+
+main .faqs-title p {
+  font-size: 20px;
+}
+
+main .faqs-wrapper {
+  display: flex;
+  align-items: baseline;
+  color: #1b3c59;
+  background-color: #1b3c59;
+}
+
+main .faqs-wrapper .faqs-left {
+  width: 50%;
+  padding: 20px 80px;
+  background-color: #e8ebf1;
+}
+
+main .faqs-wrapper .faqs-left i {
+  color: #1b3c59;
+}
+
+main .faqs-wrapper .faqs-right {
+  width: 50%;
+  padding: 20px 80px;
+  color: white;
+  background-color: #1b3c59;
+}
+
+main .faqs-wrapper .questions {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+main .faqs-wrapper .answers {
+  display: none;
+}
+
 footer {
   height: 370px;
   background-color: #1b3c59;
